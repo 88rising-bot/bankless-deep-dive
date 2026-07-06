@@ -1,106 +1,51 @@
-# The Rise of Robinhood Chain: Tokenized Stocks, Perps, and 27M Users | Johann Kerbrat
+# Robinhood Chain 上线了，这意味着什么
 
-> Bankless EP · 2026-07-06 · 30:27 · 嘉宾：Johann Kerbrat（Robinhood Crypto VP/GM）
-
-## 📋 基础信息
-
-| 字段 | 内容 |
-|------|------|
-| **期号** | — |
-| **标题** | The Rise of Robinhood Chain: Tokenized Stocks, Perps, and 27M Users |
-| **嘉宾** | Johann Kerbrat（Robinhood Crypto VP / GM） |
-| **发布日期** | 2026-07-06 |
-| **时长** | 30:27 |
-| **链接** | https://www.bankless.com/podcast/the-rise-of-robinhood-chain-tokenized-stocks-perps-and-27m-users |
-| **关键词** | Robinhood Chain, RWA, tokenized stocks, perps, Arbitrum Orbit, Morpho, USDG, LiDAR |
+> 和 Johann Kerbrat (Robinhood Crypto VP) 聊了半小时
+> 2026年7月6日 · Bankless 播客
 
 ---
 
-## 1️⃣ 核心论点
+这期讲的是 Robinhood 上周搞了个发布会，名字很妙叫"The World is Flat"——意思是要用区块链把金融服务的门槛铲平。
 
-> Robinhood Chain 是传统金融迁移到以太坊轨道的明确信号。
+上线不到24小时，链上已经有100万笔交易。说实话，放在前两年这种新闻我可能懒得看，但这次不太一样。
 
-**论证链条：**
+## 最值得看的东西：合作模式
 
-1. **代币化股票** → 1:1 锚定，带股息和公司治理权，可在 Uniswap 上 24/7 交易，自由跨链转移（Robinhood Chain ↔ Ethereum L1）
-2. **USDG 稳定币 + Morpho** → 主应用内嵌自托管智能钱包，7% 收益，Paxos 发行的 USDG 参与 Global Dollar Network，收益分享机制
-3. **永续合约扩展** → 受监管平台（Bitstamp/MiFID）提供非加密资产 perps（黄金/白银/QQQ），Robinhood Wallet 通过 LiDAR 提供加密 perps（20-50x 杠杆）
-4. **链架构** → Arbitrum Orbit chain，Stylus 支持多语言开发，低 gas，低延迟
+Robinhood 这次走的路子很聪明：**自己不重新造轮子，拿2700万用户当筹码去找最好的协议合作。**
 
-## 2️⃣ 关键洞察
+| 合作方 | 拿什么换什么 | 为什么有意思 |
+|--------|-------------|------------|
+| **Morpho**（借贷协议） | Robinhood主应用里直接嵌一个7%稳定币收益产品 | 用户甚至不知道自己在用DeFi。进了Morpho的池子，但界面完全是Robinhood风格 |
+| **LiDAR**（永续合约DEX） | Wallet里直接交易，100多个国家可用 | LiDAR 还掏了**1100万枚LEAD代币**当激励。走Robinhood Wallet交易双倍积分 |
+| **Arbitrum** | 用Arbitrum Orbit技术搭链 | 能兼容EVM，gas低，而且Stylus支持用Rust写合约——这点开发者会喜欢 |
+| **Uniswap** | 代币化股票上Uniswap交易 | 美股现在能24小时在链上交易了，不用等开盘 |
+| **Paxos** | 发行USDG稳定币，收益分享 | 跟别的稳定币不一样——USDG的国库收益会分给网络成员，不只是发行方拿着 |
 
-| 领域 | 要点 |
-|------|------|
-| **代币化股票** | 自由转移，无需 ACATS 流程（传统跨券商转移需数天/数周），可作抵押品 |
-| **KYC 问题** | 代币化股票转移是 **permissionless** 的，接收方无需 Robinhood KYC |
-| **用户增长策略** | 不是跟 Phantom/MetaMask 抢 crypto native 用户，而是瞄准 **从未上链的数十亿人** |
-| **钱包定位** | 简化 UX（Apple Pay/Google Pay 入金，滑杆调杠杆），降低 99% 人口的使用门槛 |
-| **Robinhood Chain 分发优势** | 开发者反向涌入——不是链找开发者，而是开发者找 2700 万用户的分发能力 |
+这几笔合作里最骚的操作是 **LiDAR 那笔**。Robinhood一分钱没花，LiDAR自己掏了1100万代币来激励用户用Robinhood Wallet交易。等于合作伙伴出钱帮你拉活跃度。
 
-## 3️⃣ 暂停时刻
+## 那个7%的收益靠谱吗
 
-> 听到 David 问 "Robinhood Wallet vs 主应用长期平衡" 时暂停
+Robinhood主应用里现在有一个功能：存USDG稳定币，通过Morpho拿7%年化收益。
 
-**我的推演：** 传统券商和 DeFi 最终会融合——前端是 Robinhood 品牌，后端全部跑在链上。监管是唯一的障碍。
+Johann 说他们在上线前跟合作方压了很久才把利率稳住，不是那种上了就暴跌的"英雄利率"。但我对这事持保留态度——Morpho本质上是DeFi，DeFi的收益天然会波动。7%能不能撑到年底，我打个问号。
 
-**差距：** Johann 明确表示"传统系统会逐步被区块链技术替代"，而且已经在用 Morpho 的智能钱包做实验——**这不是"要不要"，而是"等监管"**。
+## 空投/激励：为什么你记住了这个
 
-## 4️⃣ 金句 / 洞见
+除了LiDAR的1100万LEAD代币计划（8月1日开始），Robinhood自己其实**没有发空投**。整个激励链条是这样的：
 
-- 上线不到 24 小时，Robinhood Chain 已有 **100 万笔交易**
-- LiDAR 承诺 **1100 万美元 LEAD 代币**作为交易激励（8月1日启动），Robinhood Wallet 交易获双倍积分
-- "Blockchain was made by engineer for engineer. We are losing 99% of the population." —— Johann
+LiDAR出钱 → 用户通过Robinhood Wallet交易 → 拿双倍积分 → 瓜分LEAD池
 
-## 5️⃣ 批判思考
+**核心逻辑：** 每个Robinhood用户在LiDAR交易能拿2分，直接在LiDAR官网交易只能拿1分。Robinhood Wallet变成了"积分翻倍器"。
 
-- 代币化股票的 mint/ redeem 仍需通过 Robinhood——**这不是完全去中心化的 RWA**
-- 7% 的 USDG 收益率能否持续？Johann 说"跟合作伙伴确保稳定"，但 Morpho 的 DeFi 收益天然波动
-- 100 万笔交易有多少是真实的用户需求，多少是空投猎人和 bot？链刚上线，需观察
+## 我的几个疑虑
 
-## 6️⃣ 行动计划
+1. **代币化股票到底去中心化吗？** mint和redeem还是要走Robinhood。所以本质上还是个许可系统，只是交易环节上链了。
+2. **100万笔交易里有多少是真人？** 新链上线，空投猎人和bot是最活跃的。先观察一个月再说。
+3. **Robinhood Wallet到底想打谁？** 他们的回答很明确：不是跟Phantom/MetaMask抢crypto native用户，而是瞄准"从来没上过链的那99%的人"。Johann原话："Blockchain was made by engineer for engineer. We are losing 99% of the population."
 
-- [ ] 研究 Robinhood Chain 的区块浏览器和生态项目
-- [ ] 对比 Ondo Finance 的 RWA 方案（同期 Bankless 另一期有 Ian De Bode）
-- [ ] 跟踪 USDG vs USDC 的竞争格局（Global Dollar Network 模式）
-- [ ] 关注 Robinhood 的 S1 财报中新增的链收入项目
-
-## 7️⃣ 框架抽取
-
-```
-框架名称：传统金融上链的三层渗透模型
-适用范围：分析任何 TradFi 机构的加密战略
-原始上下文：Bankless Robinhood Chain EP
-
-框架结构：
-Layer 1 - 前端集成（主应用嵌入 DeFi 产品，如 Morpho 收益）
-Layer 2 - 链上基建（自建 L2，托管原生资产）
-Layer 3 - 生态开放（资产可跨链、可组合、可编程）
-```
+最后这句话其实点到了一个挺深的矛盾——Robinhood一边用区块链技术优化金融效率，一边又在拼命抹掉区块链的使用痕迹。用户甚至不需要知道自己用了DeFi。
 
 ---
 
-## 📝 逐字稿全文
-
-```
-David: [0:03] On Wednesday of last week, Robinhood held their "The World is Flat" event, where they launched the Robinhood chain, along with a huge collection of ecosystem partners and integrations. The name is a tip of the hat to the fact that Robinhood wants to democratize access, flatten the world to have access to financial products using blockchain technology. Tokenized stocks issued by Robinhood are freely and permissionlessly transferable around the Robinhood chain and on and off to the Ethereum layer one and its layer twos. Morpho is integrated into the main Robinhood app, offering 27 million Robinhood customers 7% yield on USDG stablecoin deposits in a non-custodial section of the main app. They've expanded PERP offerings to EU and Canadian customers, and have a full feature-complete integration of LiDAR (the ZK L2 PERP DEX on Ethereum) inside the Robinhood wallet.
-
-Johann: The vision was to show how using blockchain and crypto, we can actually remove all the inequalities in the world and make persons anywhere in the world able to access U.S. Stocks, perps, and all these products. We showed 15 products at the event. The chain is not even live for 24 hours and we already saw a million transactions.
-
-[Key detail: Tokenized stocks are 1:1 backed, pay dividends, support corporate actions. If anything happens to Robinhood, the customer's position is secure. Users can send stocks to another wallet — compared to traditional ACATS transfer which takes days or weeks.]
-
-[On USDG + Morpho: Robinhood creates a self-custody smart wallet for each user within the main app, connected to Morpho vaults on Robinhood Chain. The 7% yield is sustainable because Robinhood's massive distribution attracts market makers who create new pools. USDG is part of the Global Dollar Network where treasury yield is shared with network members.]
-
-[On perps: Two tracks — (1) Regulated perps via Bitstamp (MiFID license) for EU customers, offering non-crypto assets like gold, silver, QQQ, WTI with up to 10x leverage. (2) DeFi perps via LiDAR integration in Robinhood Wallet, available in 100+ countries, up to 20-50x leverage. LiDAR committed $11M in LEAD tokens for trading incentives starting August 1.]
-
-[On chain architecture: Robinhood Chain is an Arbitrum Orbit chain. Chose Arbitrum for Stylus (multi-language support including Rust), low gas fees, low latency, EVM compatibility, and Ethereum-level security.]
-
-[On long-term vision: The two worlds (traditional Robinhood app and Robinhood Wallet) will converge. "Traditional systems are going to slowly replace their technology with blockchain technology. It's just faster, fraud-proof, verifiable, decentralized, fractionalization by default."]
-
-[On target audience: Building for non-crypto natives, not competing with Phantom/MetaMask. "Blockchain was made by engineer for engineer. We are losing 99% of the population." Robinhood Wallet simplifies everything — Apple Pay/Google Pay to fund, slider for leverage, no 20-step approval processes.]
-
-[On developer ecosystem: Unlike typical chains that chase developers, Robinhood Chain has the opposite situation — developers are excited about the 27M user distribution. "People are really excited about having the distribution coming from Robinhood and having all these customers that are not necessarily crypto first."]
-```
-
----
-
-*笔记使用 C（反向演练）+ D（知识库沉淀）双路线完成*
+*原文链接：https://www.bankless.com/podcast/the-rise-of-robinhood-chain-tokenized-stocks-perps-and-27m-users*
+*完整逐字稿见底部，约30分钟对话*
